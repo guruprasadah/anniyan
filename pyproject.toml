@@ -31,6 +31,6 @@ dev = [
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 
-# [project.urls]
-# Homepage = "https://example.com"
-# Repository = "https://github.com/yourname/your-package-name"
+[project.urls]
+Homepage = "https://github.com/guruprasadah/anniyan"
+Repository = "https://github.com/guruprasadah/anniyan"
