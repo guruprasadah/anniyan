@@ -10,7 +10,7 @@ source = "src"
 
 [project]
 name = "anniyan"
-version = "0.1.0"
+version = "0.1.1"
 description = "MIME-type string validator"
 readme = "README.md"
 requires-python = ">=3.9"
