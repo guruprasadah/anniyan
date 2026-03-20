@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/anniyan"]
+
+[tool.hatch.build]
+source = "src"
+
+[project]
+name = "anniyan"
+version = "0.1.0"
+description = "MIME-type string validator"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+authors = [
+  { name = "Guruprasad AH", email = "guruprasadah08@gmail.com" }
+]
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "aiohttp"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+# [project.urls]
+# Homepage = "https://example.com"
+# Repository = "https://github.com/yourname/your-package-name"

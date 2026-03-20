@@ -1,0 +1,1 @@
+A simple IANA-compliant MIME-type string validator

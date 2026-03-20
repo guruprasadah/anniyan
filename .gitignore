@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+
+# Build artifacts and distributions
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# macOS
+.DS_Store
