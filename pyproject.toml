@@ -20,7 +20,9 @@ authors = [
   { name = "Guruprasad AH", email = "guruprasadah08@gmail.com" }
 ]
 
-dependencies = []
+dependencies = [
+    "pydantic>=2.12.5",
+]
 
 [project.optional-dependencies]
 dev = [
